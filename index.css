@@ -49,6 +49,12 @@ button {
 img {
   width: 90%;
   height: 90%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.image {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -56,7 +62,7 @@ img {
 
 .info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 52px;
 }
@@ -76,11 +82,13 @@ img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .items {
   max-width: 200px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin: 30px;
 }
 
 .quote {
