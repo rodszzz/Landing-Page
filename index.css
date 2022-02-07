@@ -49,11 +49,14 @@ button {
 img {
   width: 90%;
   height: 90%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 52px;
 }
