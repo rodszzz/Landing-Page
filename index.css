@@ -1,5 +1,6 @@
 body {
   font-family: Roboto;
+  margin: 0;
 }
 
 .header {
@@ -17,8 +18,8 @@ a {
 }
 
 a,
-.header-image,
-p {
+p,
+.header-image {
   color: #e5e7eb;
 }
 
@@ -46,12 +47,43 @@ button {
 }
 
 img {
-  width: 30%;
-  height: 30%;
+  width: 90%;
+  height: 90%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.info-title {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 32px; */
+  margin: 30px;
+  /* padding: 10px; */
+}
+
+.image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.items {
+  max-width: 200px;
+  margin-bottom: 30px;
 }
 
 .quote {
   background-color: #e5e7eb;
+  /* display: flex; */
+  /* flex: 1; */
 }
 
 .quote-text {
@@ -61,10 +93,11 @@ img {
 }
 
 .box {
-  background-color: #3882F6;
+  background-color: #3882f6;
 }
 
 .footer {
   background-color: #1f2937;
   color: #e5e7eb;
+  /* font-family: "Times New Roman", Times, serif; */
 }
